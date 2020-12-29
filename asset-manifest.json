@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/spotify-music-search-app/static/css/main.ac1e9222.chunk.css",
-    "main.js": "/spotify-music-search-app/static/js/main.ed3e6464.chunk.js",
-    "main.js.map": "/spotify-music-search-app/static/js/main.ed3e6464.chunk.js.map",
+    "main.js": "/spotify-music-search-app/static/js/main.4ab191e0.chunk.js",
+    "main.js.map": "/spotify-music-search-app/static/js/main.4ab191e0.chunk.js.map",
     "runtime-main.js": "/spotify-music-search-app/static/js/runtime-main.27895892.js",
     "runtime-main.js.map": "/spotify-music-search-app/static/js/runtime-main.27895892.js.map",
     "static/css/2.a7573f04.chunk.css": "/spotify-music-search-app/static/css/2.a7573f04.chunk.css",
-    "static/js/2.d26001db.chunk.js": "/spotify-music-search-app/static/js/2.d26001db.chunk.js",
-    "static/js/2.d26001db.chunk.js.map": "/spotify-music-search-app/static/js/2.d26001db.chunk.js.map",
+    "static/js/2.79c48bcc.chunk.js": "/spotify-music-search-app/static/js/2.79c48bcc.chunk.js",
+    "static/js/2.79c48bcc.chunk.js.map": "/spotify-music-search-app/static/js/2.79c48bcc.chunk.js.map",
     "index.html": "/spotify-music-search-app/index.html",
     "static/css/2.a7573f04.chunk.css.map": "/spotify-music-search-app/static/css/2.a7573f04.chunk.css.map",
     "static/css/main.ac1e9222.chunk.css.map": "/spotify-music-search-app/static/css/main.ac1e9222.chunk.css.map",
-    "static/js/2.d26001db.chunk.js.LICENSE.txt": "/spotify-music-search-app/static/js/2.d26001db.chunk.js.LICENSE.txt",
+    "static/js/2.79c48bcc.chunk.js.LICENSE.txt": "/spotify-music-search-app/static/js/2.79c48bcc.chunk.js.LICENSE.txt",
     "static/media/music.b2fe7d4d.jpeg": "/spotify-music-search-app/static/media/music.b2fe7d4d.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.27895892.js",
     "static/css/2.a7573f04.chunk.css",
-    "static/js/2.d26001db.chunk.js",
+    "static/js/2.79c48bcc.chunk.js",
     "static/css/main.ac1e9222.chunk.css",
-    "static/js/main.ed3e6464.chunk.js"
+    "static/js/main.4ab191e0.chunk.js"
   ]
 }
