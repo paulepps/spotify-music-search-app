@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import Home from "../components/Home";
 import RedirectPage from "../components/RedirectPage";
 import Dashboard from "../components/Dashboard";
@@ -30,7 +30,7 @@ const AppRouter = () => {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter basename="/spotify-music-search-app">
       <div className="main">
         <Switch>
           <Route
@@ -42,6 +42,7 @@ const AppRouter = () => {
           />
           <Route
             path="/redirect"
+            exact={true}
             render={(props) => (
               <RedirectPage
                 isValidSession={isValidSession}
@@ -52,6 +53,7 @@ const AppRouter = () => {
           />
           <Route
             path="/dashboard"
+            exact={true}
             render={(props) => (
               <Dashboard isValidSession={isValidSession} {...props} />
             )}
@@ -59,7 +61,7 @@ const AppRouter = () => {
           <Route component={NotFoundPage} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
